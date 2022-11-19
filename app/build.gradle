@@ -3,6 +3,7 @@ plugins {
     alias libs.plugins.kotlin.android
     alias libs.plugins.hilt.plugin
     alias libs.plugins.kotlin.kapt
+    alias libs.plugins.navigation.safeargs.plugin
 }
 
 android {
@@ -42,6 +43,10 @@ dependencies {
 
     implementation libs.android.appcompat
     implementation libs.android.material
+
+    // Navigation
+    implementation libs.navigation.ui
+    implementation libs.navigation.fragment
 
     // KTX
     implementation libs.android.ktx.core

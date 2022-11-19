@@ -3,12 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.details.DetailsFragment">
 
-    <Button
-        android:id="@+id/button_details"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Go to details" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Details" />
 
 </FrameLayout>
