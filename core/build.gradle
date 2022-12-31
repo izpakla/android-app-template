@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.core'
+    namespace 'rs.rocketbyte.template.core'
     compileSdk libs.versions.compileSdk.get().toInteger()
 
     defaultConfig {

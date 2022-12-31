@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.template'
+    namespace 'rs.rocketbyte.template'
     compileSdk libs.versions.compileSdk.get().toInteger()
 
     defaultConfig {
-        applicationId "com.example.template"
+        applicationId "rs.rocketbyte.template"
         minSdk libs.versions.minSdk.get().toInteger()
         targetSdk libs.versions.targetSdk.get().toInteger()
         versionCode 1
