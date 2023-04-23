@@ -1,7 +1,7 @@
 Android Blueprint
 =================
 
-Welcome to the Android Blueprint project! This project is based on Clean Architecture and has three
+This project is based on Clean Architecture and has three
 main modules: data, core (domain), and application.
 
 The main features of the Android Blueprint project include:
@@ -26,6 +26,3 @@ necessary business logic and updates the UI as needed.
 
 Remapping of modules is done in the core module to ensure that the separation of concerns is
 maintained and the application is scalable and maintainable.
-
-Thank you for using the Android Blueprint project. We hope it serves as a useful starting point for
-your own Android development projects.
